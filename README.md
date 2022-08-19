@@ -3,14 +3,14 @@
 
 ## This repository contains a simple guide for creating and training a model for controlling an audio player using hand gestures
 
-# Files:
+### Files:
 
 - **tutorial.ipynb** - contains instructions for creating your own data and training the model
 - **finger.py** - contains classes for saving hand movements
 - **LSTM.py** - contains LSTM model and Dataset class
 - **tracer.py** - uses mediapipe. Tracks and saves the position of the fingers. Activates the audio player to control it with gestures
 
-## Classes and methods
+### Classes and methods
 Create a **TracerData** object to detect your fingers and create samples. **timer** - time to record one sample, **num_frames** - number of past finger positions 
 
     data_motion = TracerData(timer=3, num_frames=20)
