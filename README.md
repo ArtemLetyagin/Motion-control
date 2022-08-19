@@ -5,10 +5,10 @@ This repository contains a simple guide for creating and training a model for co
 
 # Files:
 
-- **tutorial** - contains instructions for creating your own data and training the model
-- **finger** - contains classes for saving hand movements
-- **LSTM** - contains LSTM model and Dataset class
-- **tracer** - uses mediapipe. Tracks and saves the position of the fingers. Activates the audio player to control it with gestures
+- **tutorial.ipynb** - contains instructions for creating your own data and training the model
+- **finger.py** - contains classes for saving hand movements
+- **LSTM.py** - contains LSTM model and Dataset class
+- **tracer.py** - uses mediapipe. Tracks and saves the position of the fingers. Activates the audio player to control it with gestures
 
 ## Classes and methods
 Create a **TracerData** object to detect your fingers and create samples. **timer** - time to record one sample, **num_frames** - number of past finger positions 
