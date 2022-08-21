@@ -34,5 +34,7 @@ Create a **TracerPlayer** object and pass the path to your playlist, the model a
 Use **listen(time)** method to turn on the audio player and control it with your hand gestures
 
     play.listen(60)
+    
+![play](https://user-images.githubusercontent.com/89237314/185776991-99ed7f54-ea7f-4da6-ae59-8fc2ad483107.gif)
 
 
