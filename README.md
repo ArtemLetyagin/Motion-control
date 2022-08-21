@@ -35,6 +35,13 @@ Use **listen(time)** method to turn on the audio player and control it with your
 
     play.listen(60)
     
+Use **model.pth** to test how the model works with these movements
+- play and stop
 ![play](https://user-images.githubusercontent.com/89237314/185776991-99ed7f54-ea7f-4da6-ae59-8fc2ad483107.gif)
+- sound volume
+![volume](https://user-images.githubusercontent.com/89237314/185777192-443d55f6-d28f-446e-81d9-6b06f1e36c9b.gif)
+- switching to the next song
+![next](https://user-images.githubusercontent.com/89237314/185777125-50ecb3be-a93c-4e6e-b703-128da298ec7f.gif)
+
 
 
